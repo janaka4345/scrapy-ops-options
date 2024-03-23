@@ -12,8 +12,8 @@
   
 SELENIUM_DRIVER_NAME = 'chrome'
 # SELENIUM_DRIVER_EXECUTABLE_PATH = which('chromedriver')
-SELENIUM_DRIVER_EXECUTABLE_PATH = 'productscraperjs/chromedriver.exe'
-SELENIUM_DRIVER_ARGUMENTS=['--headless']  
+# SELENIUM_DRIVER_EXECUTABLE_PATH = 'productscraperjs/chromedriver.exe'
+SELENIUM_DRIVER_ARGUMENTS=['--headless=new']  
   
 DOWNLOADER_MIDDLEWARES = {
      'scrapy_selenium.SeleniumMiddleware': 800
